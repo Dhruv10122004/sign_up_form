@@ -12,7 +12,7 @@ body {
     background-color: black;
 }
 .image {
-    background-image: url(pexels-alex-andrews-271121-816608.jpg);
+    background-image: url(background_image.jpg);
     background-repeat: no-repeat;
     height: 100%;
     width: 40%;

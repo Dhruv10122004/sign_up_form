@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+}
+
+body {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.image {
+    background-image: url(pexels-alex-andrews-271121-816608.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 40%;
+    text-align: center;
+}
+
+.wrap {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    align-items: center;
+    box-shadow: 2px 2px 2px 3px gray;
+}
+.name {
+    margin-top: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.head {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 50px 30px 0 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dir {
+    display: flex;
+    flex-direction: column;
+}
+
+.details {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+form {
+    color: white;
+    margin-top: -400px;
+    margin-left: 100px;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    margin-top: 5px;
+    color: white;
+}
+
+.form_row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 150px;
+    row-gap: 10px;
+}
+
+label {
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.create_account{
+    color: white;
+    background-color: rgb(255, 93, 120);
+    width: 150px;
+    height: 40px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input:focus {
+    border: 1px solid rgb(255, 93, 120);
+}
+
+input:valid {
+    border: green;
+}
+
+input:invalid {
+    border: red;
+}
+a {
+    color: rgb(255, 93, 120);
+}
